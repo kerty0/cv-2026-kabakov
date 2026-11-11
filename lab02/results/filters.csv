@@ -1,0 +1,12 @@
+filter,noise,ms,psnr,ssim
+bilateral,kind=mix sigma=10 amount=0.02,6.5186,21.5476,0.5679
+blur3,kind=mix sigma=10 amount=0.02,0.2359,28.2892,0.7065
+blur5,kind=mix sigma=10 amount=0.02,0.2733,28.3943,0.7399
+blur7,kind=mix sigma=10 amount=0.02,0.3564,27.4529,0.7251
+gaussian3,kind=mix sigma=10 amount=0.02,0.1914,28.0777,0.7003
+gaussian5,kind=mix sigma=10 amount=0.02,0.2416,29.0291,0.7483
+gaussian7,kind=mix sigma=10 amount=0.02,0.348,29.0243,0.7704
+median3,kind=mix sigma=10 amount=0.02,0.1395,31.9009,0.8355
+median5,kind=mix sigma=10 amount=0.02,0.9024,30.7057,0.828
+median7,kind=mix sigma=10 amount=0.02,13.9829,29.3287,0.7932
+none,kind=mix sigma=10 amount=0.02,0.0037,20.875,0.4471
